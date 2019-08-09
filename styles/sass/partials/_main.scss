@@ -1,0 +1,56 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  background: #eafefc;
+}
+
+i {
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+
+.circle-icon {
+  background: $secondary;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  // line-height: 400px;
+  vertical-align: middle;
+  padding: 25px;
+  margin-right: 20px;
+}
+
+.destinations,
+.community,
+.blog,
+.contact {
+  flex-direction: column;
+  flex-basis: 50%;
+  margin: 2% auto;
+}
+
+.destinations a,
+.community a,
+.blog a,
+.contact a {
+  color: $primary;
+  text-decoration: none;
+}
+
+.more-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: $primary;
+}
+
+.image-container,
+.programs-container,
+.new-locations-container {
+  flex-direction: column;
+  flex-basis: 50%;
+}

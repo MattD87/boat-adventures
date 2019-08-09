@@ -3,11 +3,16 @@
 @import "partials/wrapper";
 @import "partials/typography";
 @import "partials/buttons";
-@import "partials/header";
 @import "partials/nav";
+@import "partials/header";
+@import "partials/main";
 @import "partials/queries";
 
 img {
   width: 100%;
   display: block;
+}
+
+body {
+  background: #eafefc;
 }

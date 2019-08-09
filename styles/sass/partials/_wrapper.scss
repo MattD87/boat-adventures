@@ -1,4 +1,11 @@
-// .wrapper {
-//   display: flex;
-//   flex-basis: 100%;
-// }
+.full-bleed-wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}

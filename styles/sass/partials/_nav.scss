@@ -1,21 +1,18 @@
-// .header-nav {
-//   margin-top: 0;
-//   padding-top: 0;
-// }
-
 ul.header-nav {
   display: flex;
   justify-content: space-around;
   // flex: 1 0 50%;
   list-style-type: none;
-  margin: 5%;
-  padding: 10px;
+  margin: 4%;
+  // margin-top: 0;
+  // padding: 10px;
   width: 30%;
 }
 
 .header-nav a {
   color: #fff;
   text-decoration: none;
+  text-shadow: 2px 2px #000;
 }
 
 ul.nav li {

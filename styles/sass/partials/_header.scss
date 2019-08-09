@@ -1,11 +1,12 @@
 header {
   // border: 2px solid black;
   background-image: url(../assets/home-header.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
 }
 
@@ -21,8 +22,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 4%;
+  margin: 5%;
+  padding-top: 13%;
   color: $secondary;
+  text-shadow: 1px 1px #fff;
 }
 
 .header-info img {
