@@ -1,0 +1,35 @@
+header {
+  // border: 2px solid black;
+  background-image: url(../assets/home-header.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.header-info h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 4%;
+  color: $secondary;
+}
+
+.header-info img {
+  display: flex;
+  justify-content: flex-end;
+  width: 55%;
+  position: absolute;
+  top: 14%;
+  right: 0;
+}
