@@ -1,5 +1,5 @@
-header {
-  // border: 2px solid black;
+//Index Header
+.index-header {
   background-image: url(../assets/home-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,6 +7,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  min-height: 400px;
 }
 
 .header-info {
@@ -34,4 +35,23 @@ header {
   position: absolute;
   top: 14%;
   right: 0;
+}
+
+//Secondary Headers
+.secondary-header {
+  background-image: url(../assets/contact-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  min-height: 300px;
+  // border: 2px solid red;
+}
+
+.secondary-header ul {
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+.secondary-header h1 {
+  color: #fff;
 }
