@@ -1,0 +1,26 @@
+// icons
+i {
+  padding-right: 20px;
+}
+
+.circle-icon {
+  background: $secondary;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  // line-height: 400px;
+  vertical-align: middle;
+  padding: 25px;
+  margin-right: 20px;
+}
+// end of icons styling
+
+// read more button
+.read-more {
+  background: $secondary;
+  color: $primary;
+  margin-top: 30px;
+  padding: 8px;
+  border: none;
+}

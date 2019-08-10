@@ -1,3 +1,4 @@
+// About Section
 .about {
   display: flex;
   flex-direction: row;
@@ -7,28 +8,11 @@
   background: #eafefc;
 }
 
-i {
-  padding-right: 20px;
-  padding-bottom: 0;
-}
-
-.circle-icon {
-  background: $secondary;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  text-align: center;
-  // line-height: 400px;
-  vertical-align: middle;
-  padding: 25px;
-  margin-right: 20px;
-}
-
 .destinations,
 .community,
 .blog,
 .contact {
-  flex-direction: column;
+  // flex-direction: column;
   flex-basis: 50%;
   margin: 2% auto;
 }
@@ -41,16 +25,109 @@ i {
   text-decoration: none;
 }
 
-.more-info {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.destinations p, .community p, .blog p, .contact p {
+  margin-left: 105px; //super hacky, but not sure how to style otherwise
+}
+
+//Programs and Locations Section
+.programs-locations-container {
   background: $primary;
 }
 
-.image-container,
-.programs-container,
-.new-locations-container {
-  flex-direction: column;
-  flex-basis: 50%;
+.programs, .locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: justify;
 }
+
+.locations {
+  text-align: right;
+}
+
+.programs img, .locations img {
+  max-width: 45%;
+  position: relative;
+}
+
+.programs img {
+  top: -30px;
+  left: 0;
+  box-shadow: 12px 12px $secondary;
+}
+
+.locations img {
+  bottom: -30px;
+  right: 0;
+  box-shadow: -12px 12px $secondary;
+}
+
+.programs-content, .locations-content {
+  padding: 50px;
+  width: calc(55% - 80px);
+}
+
+.programs-locations-container h2, .programs-locations-container p {
+  color: #fff;
+}
+
+.extra-vacation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  height: 500px;
+  padding: 0 50px;
+}
+
+.extra-vacation-container h2 {
+  color: $primary;
+}
+
+.banner {
+  background-image: url(../assets/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  height: 400px;
+}
+
+.win-trip {
+  height: 500px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip-container {
+  width: 60%;
+}
+
+.trip-img-container {
+  width: 30%;
+  box-shadow: -12px 12px $secondary;
+}
+
+.trip-container h2 {
+  color: $primary;
+  padding-bottom: 10px;
+}
+
+.gallery {
+  background: $primary;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 75px;
+}
+
+.gallery img {
+  padding: 15px;
+  width: 33%;
+}
+
+
