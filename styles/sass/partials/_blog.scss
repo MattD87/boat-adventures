@@ -1,0 +1,85 @@
+.post {
+  display: flex;
+  justify-content: space-between;
+}
+
+// Blog Navigation Aside
+.blog-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 22%;
+  height: 680px;
+  margin: 80px 60px 80px 50px;
+  padding: 16px;
+  padding-top: 0;
+  background: $primary;
+  color: #fff;
+}
+
+.blog-navigation h4 {
+  color: $secondary;
+}
+
+.blog-navigation img {
+  position: relative;
+  width: 120%;
+  top: -20px;
+  left: -70px;
+}
+
+.blog-navigation ul {
+  padding: 16px;
+  list-style-type: disc;
+}
+
+.blog-navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+
+// Blog Post Article
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 60%;
+  position: relative;
+}
+
+.blog-img-container img {
+  box-shadow: -10px 10px $secondary;
+  position: absolute;
+  top: -120px;
+  right: -8px;
+}
+
+.blog-content {
+  margin-top: 400px;
+  padding: 40px;
+  border: 2px solid $secondary;
+  border-top: 0;
+  border-right: 0;
+}
+
+.blog-content h2 {
+  color: $primary;
+}
+
+.blog-content p:first-of-type {
+  padding-bottom: 40px;
+}
+.blog-content p {
+  padding-bottom: 20px;
+}
+
+// Blog Comments
+.comments {
+  padding: 60px;
+  border: 1px solid red;
+}
+
+.comment-content {
+  display: flex;
+  border: 1px solid green;
+}
