@@ -44,18 +44,17 @@
   flex-direction: column;
   justify-content: flex-end;
   width: 60%;
-  position: relative;
 }
 
-.blog-img-container img {
+.blog-img-container {
   box-shadow: -10px 10px $secondary;
-  position: absolute;
-  top: -120px;
-  right: -8px;
+  position: relative;
+  top: -140px;
+  right: -10px;
 }
 
 .blog-content {
-  margin-top: 400px;
+  margin-top: -140px;
   padding: 40px;
   border: 2px solid $secondary;
   border-top: 0;
@@ -76,10 +75,36 @@
 // Blog Comments
 .comments {
   padding: 60px;
+  padding-right: 20px;
   border: 1px solid red;
 }
 
-.comment-content {
+.comments h3 {
+  color: $primary;
+}
+
+.comment-container {
   display: flex;
   border: 1px solid green;
+}
+
+.comment-container:first-of-type {
+  padding-bottom: 60px;
+}
+
+.display-picture {
+  width: 20%;
+  padding: 18px;
+  padding-top: 0;
+}
+
+.comment-content {
+  width: 70%;
+  // padding: 14px;
+  margin: 0 auto;
+}
+
+.comment-content h5 {
+  color: $primary;
+  padding-bottom: 12px;
 }
