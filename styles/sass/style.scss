@@ -6,6 +6,7 @@
 @import "partials/nav";
 @import "partials/header";
 @import "partials/main";
+@import "partials/blog";
 @import "partials/contact";
 @import "partials/form";
 @import "partials/footer";
@@ -17,5 +18,5 @@ img {
 }
 
 body {
-  background: #eafefc;
+  background: $background;
 }
