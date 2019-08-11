@@ -12,7 +12,6 @@
 .community,
 .blog,
 .contact {
-  // flex-direction: column;
   flex-basis: 50%;
   margin: 2% auto;
 }
@@ -67,7 +66,7 @@
   width: calc(55% - 80px);
 }
 
-.programs-locations-container h2, .programs-locations-container p {
+.programs-locations-container h3, .programs-locations-container p {
   color: #fff;
 }
 

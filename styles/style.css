@@ -256,6 +256,7 @@ h2 {
 h3 {
   font-size: 4rem;
   letter-spacing: 1.3px;
+  padding-bottom: 14px;
 }
 
 h4 {
@@ -338,7 +339,7 @@ ul.header-nav {
       justify-content: space-around;
   list-style-type: none;
   padding: 40px;
-  margin: 3%;
+  margin: 4%;
   margin-top: 0;
   width: 35%;
 }
@@ -398,7 +399,7 @@ ul.header-nav {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin: 5%;
+  margin-left: 7%;
   padding-top: 13%;
   color: #fdd908;
   text-shadow: 2px 2px #000;
@@ -425,15 +426,10 @@ ul.header-nav {
   min-height: 300px;
 }
 
-.secondary-header ul {
-  margin-top: 0;
-  padding-top: 40px;
-}
-
 .secondary-header h1 {
   color: #fff;
   text-shadow: 2px 2px #000;
-  padding-left: 60px;
+  margin-left: 8%;
 }
 
 .about {
@@ -518,7 +514,7 @@ ul.header-nav {
   width: calc(55% - 80px);
 }
 
-.programs-locations-container h2, .programs-locations-container p {
+.programs-locations-container h3, .programs-locations-container p {
   color: #fff;
 }
 
@@ -659,10 +655,10 @@ address {
   overflow: hidden;
 }
 
-form,
-input[type=text],
-input[type=email],
-textarea {
+.contact-form,
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
   background: #0d457f;
   color: #fdd908;
 }
@@ -683,7 +679,7 @@ textarea {
   color: #fff;
 }
 
-form {
+.contact-form {
   height: 520px;
   padding: 60px;
   -webkit-box-shadow: 10px 10px #fdd908;

@@ -11,10 +11,10 @@
   overflow: hidden;
 }
 
-form,
-input[type=text],
-input[type=email],
-textarea {
+.contact-form,
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
   background: $primary;
   color: $secondary;
 }
@@ -23,7 +23,7 @@ textarea {
   color: #fff;
 }
 
-form {
+.contact-form {
   height: 520px;
   padding: 60px;
   box-shadow: 10px 10px $secondary;
