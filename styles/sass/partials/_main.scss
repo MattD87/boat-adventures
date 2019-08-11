@@ -71,6 +71,7 @@
   color: #fff;
 }
 
+//Extra Vacation Days Styles
 .extra-vacation-container {
   display: flex;
   flex-direction: column;
@@ -85,6 +86,7 @@
   color: $primary;
 }
 
+//Banner Image Style
 .banner {
   background-image: url(../assets/banner.jpg);
   background-size: cover;
@@ -93,6 +95,7 @@
   height: 400px;
 }
 
+//Trip Contest Styles
 .win-trip {
   height: 500px;
   min-height: 300px;
@@ -116,6 +119,7 @@
   padding-bottom: 10px;
 }
 
+//Image Gallery Styles
 .gallery {
   background: $primary;
   display: flex;

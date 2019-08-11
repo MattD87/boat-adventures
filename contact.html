@@ -18,36 +18,53 @@
     <header class="secondary-header">
       <nav>
         <ul class="header-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href= "contact.html">Contact</a></li>
         </ul>
       </nav>
       <h1>Get in Touch</h1>
     </header>
   </div>
 
-  <section class="contact-container">
-    <div class="contact-info">
-      <ul class="social-links">
-        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-      </ul>
-      <a href="mailto: info@email.com">info@email.com</a>
-      <address>
-        <p>123-456-7890</p>
-        <p>123 Queen Street west, Unit 10</p>
-        <p>Toronto, Ontario</p>
-        <p>M5V 2D5</p>
-      </address>
-    </div>
+  <div class="wrapper">
+    <section class="contact-container">
+      <div class="contact-info">
+        <ul class="social-links">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+        <a href="mailto: info@email.com">info@email.com</a>
+        <address>
+          <p>123-456-7890</p>
+          <p>123 Queen Street west, Unit 10</p>
+          <p>Toronto, Ontario</p>
+          <p>M5V 2D5</p>
+        </address>
+      </div>
 
-    <form action="">
-    </form>
-  </section>
+      <div class="form-wrapper">
+        <form action="">
+          <fieldset>
+            <label for="name" class="visuallyHidden">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+
+            <label for="email" class="visuallyHidden">Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+          </fieldset>
+          <div class="message-box">
+            <label for="comment" class="visuallyHidden">Message</label>
+            <textarea name="comment" rows="10" cols="60" id="comment" placeholder="Message"></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </div>
 
   <div class="full-bleed-wrapper">
     <footer>

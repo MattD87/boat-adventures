@@ -9,18 +9,29 @@ i {
   height: 80px;
   border-radius: 50%;
   text-align: center;
-  // line-height: 400px;
   vertical-align: middle;
   padding: 25px;
   margin-right: 20px;
 }
-// end of icons styling
 
-// read more button
+// Read More Button
 .read-more {
   background: $secondary;
   color: $primary;
   margin-top: 30px;
   padding: 8px;
   border: none;
+}
+
+// Contact Submit Button
+form button {
+  width: 100%;
+  background: $secondary;
+  color: $primary;
+  border: 0;
+  padding: 8px;
+  font-family: $heading-font;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
 }

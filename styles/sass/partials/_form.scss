@@ -1,0 +1,54 @@
+.visuallyHidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+form,
+input[type=text],
+input[type=email],
+textarea {
+  background: $primary;
+  color: $secondary;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+form {
+  height: 520px;
+  padding: 60px;
+  box-shadow: 10px 10px $secondary;
+  position: relative;
+  top: -120px;
+  right: -100px;
+
+}
+
+input[type=text], input[type=email] {
+  height: 40px;
+  width: 49%;
+  padding: 0 14px;
+  margin-bottom: 60px;
+  border: 0;
+  border-bottom: 1px solid $secondary;
+}
+
+.message-box {
+  margin-bottom: 60px;
+  border: 1px solid $secondary;
+}
+
+textarea {
+  padding: 14px;
+  border: 0;
+}
+

@@ -289,6 +289,12 @@ i {
   margin: 0 auto;
 }
 
+.form-wrapper {
+  margin: 0 auto;
+  max-width: 750px;
+  max-height: 600px;
+}
+
 i {
   padding-right: 20px;
 }
@@ -312,6 +318,18 @@ i {
   border: none;
 }
 
+form button {
+  width: 100%;
+  background: #fdd908;
+  color: #0d457f;
+  border: 0;
+  padding: 8px;
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
 ul.header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -319,8 +337,10 @@ ul.header-nav {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   list-style-type: none;
-  margin: 4%;
-  width: 30%;
+  padding: 40px;
+  margin: 3%;
+  margin-top: 0;
+  width: 35%;
 }
 
 .header-nav a {
@@ -329,7 +349,7 @@ ul.header-nav {
   text-shadow: 2px 2px #000;
 }
 
-ul.nav li {
+.header-nav li {
   text-align: center;
 }
 
@@ -381,7 +401,7 @@ ul.nav li {
   margin: 5%;
   padding-top: 13%;
   color: #fdd908;
-  text-shadow: 1px 1px #fff;
+  text-shadow: 2px 2px #000;
 }
 
 .header-info img {
@@ -412,6 +432,8 @@ ul.nav li {
 
 .secondary-header h1 {
   color: #fff;
+  text-shadow: 2px 2px #000;
+  padding-left: 60px;
 }
 
 .about {
@@ -599,7 +621,8 @@ ul.nav li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 400px;
+  height: 480px;
+  margin-left: 40px;
 }
 
 .social-links li {
@@ -620,6 +643,73 @@ ul.nav li {
 
 address {
   margin-top: 20px;
+}
+
+.visuallyHidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+form,
+input[type=text],
+input[type=email],
+textarea {
+  background: #0d457f;
+  color: #fdd908;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+form {
+  height: 520px;
+  padding: 60px;
+  -webkit-box-shadow: 10px 10px #fdd908;
+          box-shadow: 10px 10px #fdd908;
+  position: relative;
+  top: -120px;
+  right: -100px;
+}
+
+input[type=text], input[type=email] {
+  height: 40px;
+  width: 49%;
+  padding: 0 14px;
+  margin-bottom: 60px;
+  border: 0;
+  border-bottom: 1px solid #fdd908;
+}
+
+.message-box {
+  margin-bottom: 60px;
+  border: 1px solid #fdd908;
+}
+
+textarea {
+  padding: 14px;
+  border: 0;
 }
 
 footer {
