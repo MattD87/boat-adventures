@@ -286,6 +286,11 @@ i {
   font-size: 1.4rem;
 }
 
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
 .full-bleed-wrapper {
   width: 100%;
   max-width: 1400px;
@@ -302,12 +307,6 @@ i {
   margin: 0 auto;
   max-width: 750px;
   max-height: 600px;
-}
-
-.blog-form-wrapper {
-  margin: 0 auto;
-  max-width: 650px;
-  max-height: 400px;
 }
 
 i {
@@ -343,6 +342,11 @@ form button {
   font-weight: 400;
   font-style: italic;
   text-transform: uppercase;
+}
+
+.blog-comment button {
+  background: #0d457f;
+  color: #fdd908;
 }
 
 ul.header-nav {
@@ -629,6 +633,7 @@ ul.header-nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .blog-navigation {
@@ -716,8 +721,8 @@ ul.header-nav {
 
 .comments {
   padding: 60px;
+  padding-bottom: 0;
   padding-right: 20px;
-  border: 1px solid red;
 }
 
 .comments h3 {
@@ -728,10 +733,6 @@ ul.header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid green;
-}
-
-.comment-container:first-of-type {
   padding-bottom: 60px;
 }
 
@@ -764,7 +765,7 @@ ul.header-nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 480px;
+  max-height: 520px;
   margin-left: 40px;
 }
 
@@ -802,6 +803,26 @@ address {
   overflow: hidden;
 }
 
+input[type=text],
+input[type=email] {
+  height: 40px;
+  width: 49%;
+  padding: 0 14px;
+  margin-bottom: 60px;
+  border: 0;
+  border-bottom: 2px solid #fdd908;
+}
+
+.message-box {
+  margin-bottom: 60px;
+  border: 2px solid #fdd908;
+}
+
+textarea {
+  padding: 14px;
+  border: 0;
+}
+
 .contact-form,
 .contact-form input[type=text],
 .contact-form input[type=email],
@@ -810,49 +831,84 @@ address {
   color: #fdd908;
 }
 
-::-webkit-input-placeholder {
+.contact-form ::-webkit-input-placeholder,
+.contact-form input[type=text] ::-webkit-input-placeholder,
+.contact-form input[type=email] ::-webkit-input-placeholder,
+.contact-form textarea ::-webkit-input-placeholder {
   color: #fff;
 }
 
-:-ms-input-placeholder {
+.contact-form :-ms-input-placeholder,
+.contact-form input[type=text] :-ms-input-placeholder,
+.contact-form input[type=email] :-ms-input-placeholder,
+.contact-form textarea :-ms-input-placeholder {
   color: #fff;
 }
 
-::-ms-input-placeholder {
+.contact-form ::-ms-input-placeholder,
+.contact-form input[type=text] ::-ms-input-placeholder,
+.contact-form input[type=email] ::-ms-input-placeholder,
+.contact-form textarea ::-ms-input-placeholder {
   color: #fff;
 }
 
-::placeholder {
+.contact-form ::placeholder,
+.contact-form input[type=text] ::placeholder,
+.contact-form input[type=email] ::placeholder,
+.contact-form textarea ::placeholder {
   color: #fff;
 }
 
 .contact-form {
-  height: 520px;
+  height: 580px;
   padding: 60px;
   -webkit-box-shadow: 10px 10px #fdd908;
           box-shadow: 10px 10px #fdd908;
   position: relative;
   top: -120px;
-  right: -100px;
+  right: -80px;
 }
 
-input[type=text], input[type=email] {
-  height: 40px;
-  width: 49%;
-  padding: 0 14px;
-  margin-bottom: 60px;
-  border: 0;
-  border-bottom: 1px solid #fdd908;
+.blog-comment {
+  width: 90%;
+  margin: 0 auto;
 }
 
-.message-box {
-  margin-bottom: 60px;
-  border: 1px solid #fdd908;
+.blog-comment input[type=text],
+.blog-comment input[type=email] {
+  height: 50px;
+  width: 48%;
+  padding: 6px 16px;
+  background: #eafefc;
 }
 
-textarea {
-  padding: 14px;
-  border: 0;
+.blog-comment input[type=text] {
+  margin-right: 20px;
+}
+
+.blog-comment .message-box {
+  margin-bottom: 40px;
+}
+
+.blog-comment textarea {
+  padding: 26px;
+  background: #eafefc;
+}
+
+.blog-comment ::-webkit-input-placeholder {
+  color: #000;
+}
+
+.blog-comment :-ms-input-placeholder {
+  color: #000;
+}
+
+.blog-comment ::-ms-input-placeholder {
+  color: #000;
+}
+
+.blog-comment ::placeholder {
+  color: #000;
 }
 
 footer {

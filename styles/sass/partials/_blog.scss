@@ -1,6 +1,7 @@
 .post {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 // Blog Navigation Aside
@@ -75,8 +76,9 @@
 // Blog Comments
 .comments {
   padding: 60px;
+  padding-bottom: 0;
   padding-right: 20px;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .comments h3 {
@@ -85,11 +87,8 @@
 
 .comment-container {
   display: flex;
-  border: 1px solid green;
-}
-
-.comment-container:first-of-type {
   padding-bottom: 60px;
+  // border: 1px solid green;
 }
 
 .display-picture {
@@ -100,7 +99,6 @@
 
 .comment-content {
   width: 70%;
-  // padding: 14px;
   margin: 0 auto;
 }
 

@@ -35,3 +35,9 @@ form button {
   font-style: italic;
   text-transform: uppercase;
 }
+
+// Blog Comment Button
+.blog-comment button {
+  background: $primary;
+  color: $secondary;
+}
