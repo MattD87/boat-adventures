@@ -238,16 +238,37 @@ textarea {
   border: 2px solid #fdd908;
 }
 
+.header-nav a:hover {
+  color: #fdd908;
+}
+
 .about a:focus {
   border: 2px solid #0d457f;
+}
+
+.about a:hover {
+  color: #000;
 }
 
 .recent-blog-posts a:focus {
   border: 2px solid #fdd908;
 }
 
+.recent-blog-posts a:hover {
+  border-bottom: 1px solid #fdd908;
+}
+
 .contact-info a:focus {
   border: 2px solid #000;
+}
+
+.contact-info a:hover {
+  border-bottom: 2px solid #0d457f;
+}
+
+button:hover {
+  -webkit-box-shadow: 2px 2px #1f2022;
+          box-shadow: 2px 2px #1f2022;
 }
 
 .read-more:focus {

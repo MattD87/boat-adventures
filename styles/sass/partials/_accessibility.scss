@@ -17,19 +17,39 @@
   border: 2px solid $secondary;
 }
 
+.header-nav a:hover {
+  color: $secondary;
+}
+
 .about a:focus {
   border: 2px solid $primary;
+}
+
+.about a:hover {
+  color: #000;
 }
 
 .recent-blog-posts a:focus {
   border: 2px solid $secondary;
 }
 
+.recent-blog-posts a:hover {
+  border-bottom: 1px solid $secondary;
+}
+
 .contact-info a:focus {
   border: 2px solid #000;
 }
 
+.contact-info a:hover {
+  border-bottom: 2px solid $primary;
+}
+
 // Buttons
+button:hover {
+  box-shadow: 2px 2px #1f2022;
+}
+
 .read-more:focus {
   border: 3px solid $secondary;
   background: $background;
