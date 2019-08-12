@@ -1,8 +1,10 @@
 // About Section
-.about .wrapper{
+.about .wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   padding-top: 140px;
   padding-bottom: 100px;
   background: #eafefc;
@@ -16,6 +18,10 @@
   margin: 2% auto;
 }
 
+i {
+  color: $primary;
+}
+
 .destinations a,
 .community a,
 .blog a,
@@ -24,7 +30,10 @@
   text-decoration: none;
 }
 
-.destinations p, .community p, .blog p, .contact p {
+.destinations p,
+.community p,
+.blog p,
+.contact p {
   margin-left: 105px; //super hacky, but not sure how to style otherwise
 }
 
@@ -35,6 +44,7 @@
 
 .programs, .locations {
   display: flex;
+  flex: 1 0 auto;
   flex-direction: row;
   justify-content: space-between;
   text-align: justify;
@@ -76,7 +86,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 300px;
+  flex: 1 0 auto;
   height: 500px;
   padding: 0 50px;
 }
@@ -102,6 +112,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex: 1 0 auto;
 }
 
 .trip-container {
@@ -125,6 +136,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex: 1 0 auto;
   padding: 50px 75px;
 }
 

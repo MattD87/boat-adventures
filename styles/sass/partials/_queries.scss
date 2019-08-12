@@ -5,12 +5,7 @@
   }
 
   .header-nav li {
-    margin-right: 60px;
     font-size: 2.8rem;
-  }
-
-  body {
-    background: red;
   }
 }
 
@@ -39,14 +34,63 @@
     padding-top: 100px;
     padding-bottom: 80px;
   }
-
 }
 
 // Landscape phone to portrait tablet
 @media (max-width: 768px){
-body {
-  background: red;
-}
+  body {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+
+  h1 {
+    font-size: 8rem;
+    line-height: 10rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+    line-height: 6rem;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+  }  
+
+  .index-header {
+    height: 60vh;
+  }
+
+  .header-info h1 {
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .header-info img {
+    display: none;
+  }
+
+  .header-nav {
+    font-size: 2rem;
+  }
+
+  .destinations h2,
+  .community h2,
+  .blog h2,
+  .contact h2 {
+    justify-content: flex-start;
+  }
+
+  .destinations p,
+  .community p,
+  .blog p,
+  .contact p {
+    margin-left: 0;
+  }
 }
 
 // Landscape phones and down

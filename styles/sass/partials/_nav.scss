@@ -1,12 +1,7 @@
 ul.header-nav {
   display: flex;
-  justify-content: space-around;
-  flex: 1 0 auto;
   list-style-type: none;
-  padding: 40px;
-  margin: 40px;
-  margin-top: 0;
-  width: 35%;
+  margin: 60px;
 }
 
 .header-nav a {
@@ -16,8 +11,7 @@ ul.header-nav {
 }
 
 .header-nav li {
-  text-align: center;
-  // flex: 1 0 25%;
+   margin: 0 20px;  
 }
 
 .active {
