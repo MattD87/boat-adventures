@@ -1,0 +1,71 @@
+// Skip Link
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: #1f2022;
+  color: #fff;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+// Links
+.header-nav a:focus {
+  border: 2px solid $secondary;
+}
+
+.about a:focus {
+  border: 2px solid $primary;
+}
+
+.recent-blog-posts a:focus {
+  border: 2px solid $secondary;
+}
+
+.contact-info a:focus {
+  border: 2px solid #000;
+}
+
+// Buttons
+.read-more:focus {
+  border: 3px solid $secondary;
+  background: $background;
+  color: #000;
+}
+
+.extra-vacation-container button:focus, .trip-container button:focus {
+  border: 2px solid #000;
+  background: $primary;
+  color: $secondary;
+}
+
+.blog-comment button:focus {
+  border: 3px solid $primary;
+  background: $secondary;
+  color: #000;
+}
+
+.contact-form button:focus {
+  border: 3px solid $secondary;
+  background: #fff;
+  color: $primary;
+
+}
+
+// Forms
+.blog-comment input[type=text]:focus, .blog-comment input[type=email]:focus, .blog-comment textarea:focus {
+  border: 2px solid $secondary;
+  background: $primary;
+  color: #fff;
+}
+
+.contact-form input[type=email]:focus,
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus {
+  border: 2px solid $secondary;
+  background: $background;
+  color: $primary;
+}

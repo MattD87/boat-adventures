@@ -13,6 +13,10 @@
 </head>
 
 <body>
+  <a href="#blog-navigation" class="skip-link">Skip to blog navigation.</a>
+  <a href="#blog-post" class="skip-link">Skip to main content.</a>
+  <a href="#blog-comment" class="skip-link">Skip to comment section.</a>
+
   <header class="secondary-header blog-header">
     <div class="-full-bleed-wrapper">
       <nav>
@@ -30,10 +34,8 @@
   <main>
     <div class="full-bleed-wrapper">
       <section class="post">
-        <aside class="blog-navigation">
-          <img src="assets/blog-side-image.jpg"
-            alt="a view from deck level to the front of the yacht, with the sun rising in the distance">
-          <!--figure?-->
+        <aside class="blog-navigation" id="blog-navigation">
+          <img src="assets/blog-side-image.jpg" alt="a view from deck level to the front of the yacht, with the sun rising in the distance">
           <div class="mission-statement">
             <h4>Our Mission</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, incidunt error qui at minima eaque adjit?</p>
@@ -49,7 +51,7 @@
           </div>
         </aside>
 
-        <article class="blog-post">
+        <article class="blog-post" id="blog-post">
           <div class="blog-img-container">
             <img src="assets/blog-post-image.jpg" alt="the front deck of a boat at sea with an anchor rope in the water">
           </div>
@@ -93,7 +95,7 @@
             </div>
           </div>
 
-          <form class="blog-comment" action="">
+          <form class="blog-comment" id="blog-comment" action="">
             <fieldset>
               <label for="name" class="visuallyHidden">Name</label>
               <input type="text" name="name" id="name" placeholder="Name" required>
@@ -114,7 +116,7 @@
   </main>
 
   <footer>
-    <div class="full-bleed-wrapper">
+    <div class="footer-wrapper">
       <p>Copyright &copy; 2019 HackerYou</p>
     </div>
   </footer>

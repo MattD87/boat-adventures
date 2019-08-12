@@ -221,6 +221,73 @@ textarea {
   overflow: hidden;
 }
 
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: #1f2022;
+  color: #fff;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+.header-nav a:focus {
+  border: 2px solid #fdd908;
+}
+
+.about a:focus {
+  border: 2px solid #0d457f;
+}
+
+.recent-blog-posts a:focus {
+  border: 2px solid #fdd908;
+}
+
+.contact-info a:focus {
+  border: 2px solid #000;
+}
+
+.read-more:focus {
+  border: 3px solid #fdd908;
+  background: #eafefc;
+  color: #000;
+}
+
+.extra-vacation-container button:focus, .trip-container button:focus {
+  border: 2px solid #000;
+  background: #0d457f;
+  color: #fdd908;
+}
+
+.blog-comment button:focus {
+  border: 3px solid #0d457f;
+  background: #fdd908;
+  color: #000;
+}
+
+.contact-form button:focus {
+  border: 3px solid #fdd908;
+  background: #fff;
+  color: #0d457f;
+}
+
+.blog-comment input[type=text]:focus, .blog-comment input[type=email]:focus, .blog-comment textarea:focus {
+  border: 2px solid #fdd908;
+  background: #0d457f;
+  color: #fff;
+}
+
+.contact-form input[type=email]:focus,
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus {
+  border: 2px solid #fdd908;
+  background: #eafefc;
+  color: #0d457f;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -293,20 +360,28 @@ textarea {
 
 .full-bleed-wrapper {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px;
+  min-height: 300px;
   margin: 0 auto;
 }
 
 .wrapper {
   width: 90%;
   max-width: 1400px;
+  min-height: 300px;
   margin: 0 auto;
 }
 
 .form-wrapper {
   margin: 0 auto;
-  max-width: 750px;
-  max-height: 600px;
+  max-width: 1000px;
+  max-height: 650px;
+}
+
+.footer-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1600px;
 }
 
 i {

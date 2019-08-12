@@ -14,6 +14,9 @@
 </head>
 
 <body>
+  <a href="#contact-info" class="skip-link">Skip to contact info.</a>
+  <a href="#contact-form" class="skip-link">Skip to contact form.</a>
+
   <header class="secondary-header">
     <div class="-full-bleed-wrapper">
       <nav>
@@ -30,7 +33,7 @@
 
   <main>
     <div class="wrapper">
-      <section class="contact-container">
+      <section class="contact-container" id="contact-info">
         <div class="contact-info">
           <ul class="social-links">
             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -48,7 +51,7 @@
         </div>
 
         <div class="form-wrapper">
-          <form class="contact-form" action="">
+          <form class="contact-form" id="contact-form" action="">
             <fieldset>
               <label for="name" class="visuallyHidden">Name</label>
               <input type="text" name="name" id="name" placeholder="Name" required>
@@ -69,7 +72,7 @@
   </main>
 
   <footer>
-    <div class="full-bleed-wrapper">
+    <div class="footer-wrapper">
       <p>Copyright &copy; 2019 HackerYou</p>
     </div>
   </footer>
