@@ -1,8 +1,7 @@
 // Large Screens
 @media (min-width: 1400px){
   .header-info img {
-    position: relative;
-    right:36px;
+    top: 200px;
   }
 
   .header-nav li {
@@ -16,7 +15,30 @@
 }
 
 // Portrait tablet and small desktops
-@media (max-width: 940px){
+@media (max-width: 1024px){
+  body {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  h1 {
+    font-size: 6.2rem;
+    line-height: 10rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    line-height: 7rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  .about .wrapper {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
 
 }
 

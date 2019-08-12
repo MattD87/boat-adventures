@@ -1,10 +1,10 @@
 // About Section
-.about {
+.about .wrapper{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-top: 15%;
-  padding-bottom: 10%;
+  padding-top: 140px;
+  padding-bottom: 100px;
   background: #eafefc;
 }
 
@@ -71,7 +71,7 @@
 }
 
 //Extra Vacation Days Styles
-.extra-vacation-container {
+.extra-vacation-container .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,7 +95,7 @@
 }
 
 //Trip Contest Styles
-.win-trip {
+.win-trip .wrapper {
   height: 500px;
   min-height: 300px;
   display: flex;
@@ -119,7 +119,7 @@
 }
 
 //Image Gallery Styles
-.gallery {
+.gallery .full-bleed-wrapper {
   background: $primary;
   display: flex;
   flex-direction: row;
