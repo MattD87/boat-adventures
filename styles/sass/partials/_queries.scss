@@ -1,5 +1,38 @@
-@mixin mq-tablet {
-  @media (max-width: 768px) {
-    @content;
+// Large Screens
+@media (min-width: 1400px){
+  .header-info img {
+    position: relative;
+    right:36px;
   }
+
+  .header-nav li {
+    margin-right: 60px;
+    font-size: 2.8rem;
+  }
+
+  body {
+    background: red;
+  }
+}
+
+// Portrait tablet and small desktops
+@media (max-width: 940px){
+
+}
+
+// Landscape phone to portrait tablet
+@media (max-width: 768px){
+body {
+  background: red;
+}
+}
+
+// Landscape phones and down
+@media (max-width: 480px){
+
+}
+
+// Even smaller 
+@media(max-width: 320px){
+
 }
