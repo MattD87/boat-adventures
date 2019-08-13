@@ -37,7 +37,7 @@
   }
 
   h1 {
-    font-size: 8.4rem;
+    font-size: 8rem;
     line-height: 10rem;
   }
 
@@ -54,6 +54,18 @@
   .index-header,
   .secondary-header {
     height: 80vh;
+  }
+
+  .header-info h1 {
+    padding-top: 0;
+    margin-left: 20px;
+  }
+
+  .header-info img {
+    width: 45%;
+  }
+  .header-nav ul {
+    margin-bottom: 0;
   }
 
   .about .wrapper {
@@ -82,6 +94,12 @@
 
   textarea {
     width: 100%;
+  }
+
+  // Blog Page
+  .blog-comment input[type=text],
+  .blog-comment input[type=email] {
+    width: 46%;
   }
 }
 
@@ -169,6 +187,7 @@
 
   // Contact Page
   .secondary-header h1 {
+    // font-size: 8.6rem;
     padding-top: 40px;
   }
 
@@ -180,6 +199,26 @@
     margin: 20px 40px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  // Blog Page
+  h4 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    padding: 12px 0;
+  }
+
+  .blog-navigation {
+    height: 750px;
+  }
+
+  .blog-navigation img {
+    position: static;
+    width: 100%;
+  }
+
+  .blog-navigation ul {
+    padding: 4px;
   }
 }
 
@@ -312,12 +351,53 @@
   }
 
   textarea {
-    height: 100%;
+    height: 80%;
   }
 
   .contact-info {
     font-size: 1.8rem;
     line-height: 2rem;
+  }
+
+  // Blog Page
+  .post {
+    flex-direction: column-reverse;
+  }
+
+  .blog-post {
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+  }
+
+  .blog-content {
+    padding: 20px;
+    border: 2px solid #fdd908;
+    margin-top: 20px;
+  }
+
+  .blog-img-container {
+    display: none;
+  }
+
+  .comments {
+    padding-left: 20px;
+  }
+
+  .comments h3 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .display-picture {
+    width: 30%;
+  }
+
+  .blog-navigation {
+    width: 90%;
+    height: 620px;
+    margin: 20px auto;
+    padding-top: 16px;
   }
 }
 
@@ -338,7 +418,6 @@
   h2 {
     font-size: 2.2rem;
     line-height: 3rem;
-    // text-align: center;
   }
 
   h3 {
@@ -364,9 +443,14 @@
     padding-bottom: 40px;
   }
 
-  //Contact
+  //Contact Page
   textarea {
     width: 70%;
     height: 70%;
   }
+
+  // Blog Page {
+    .secondary-header h1 {
+
+    }
 }
