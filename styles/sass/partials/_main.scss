@@ -18,7 +18,7 @@
   margin: 2% auto;
 }
 
-i {
+.destinations i, .community i, .blog i, .contact i {
   color: $primary;
 }
 
@@ -34,7 +34,7 @@ i {
 .community p,
 .blog p,
 .contact p {
-  margin-left: 105px; //super hacky, but not sure how to style otherwise
+  margin-left: 105px; 
 }
 
 //Programs and Locations Section
@@ -88,7 +88,12 @@ i {
   align-items: center;
   flex: 1 0 auto;
   height: 500px;
-  padding: 0 50px;
+  // padding: 0 50px;
+}
+
+.extra-vacation-container {
+  // height: 500px;
+  padding: 0 40px;
 }
 
 .extra-vacation-container h2 {
@@ -106,13 +111,16 @@ i {
 
 //Trip Contest Styles
 .win-trip .wrapper {
-  height: 500px;
-  min-height: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex: 1 0 auto;
+}
+
+.win-trip {
+  margin: 40px;
+  // margin-right: 0;
 }
 
 .trip-container {
@@ -122,6 +130,7 @@ i {
 .trip-img-container {
   width: 30%;
   box-shadow: -12px 12px $secondary;
+  margin-right: 40px;
 }
 
 .trip-container h2 {
@@ -139,6 +148,10 @@ i {
   flex: 1 0 auto;
   padding: 50px 75px;
 }
+
+// .gallery {
+//   padding: 50px 75px;
+// }
 
 .gallery img {
   padding: 15px;

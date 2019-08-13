@@ -1,23 +1,43 @@
 // Large Screens
 @media (min-width: 1400px){
+  //Global
+  .full-bleed-wrapper {
+    max-width: 1600px;
+  }
+
+  //Index Page
   .header-info img {
-    top: 200px;
+    top: 220px;
   }
 
   .header-nav li {
     font-size: 2.8rem;
   }
+
+  // Contact Page
+  .secondary-header h1 {
+    padding-top: 40px;
+  }
+
+  // Blog Page
+  body {
+    font-size: 2.4rem;
+  }
+  .secondary-header h1 {
+    font-size: 12rem;
+  }
 }
 
 // Portrait tablet and small desktops
 @media (max-width: 1024px){
+  // Global
   body {
     font-size: 1.6rem;
     line-height: 2.4rem;
   }
 
   h1 {
-    font-size: 6.2rem;
+    font-size: 8.4rem;
     line-height: 10rem;
   }
 
@@ -30,14 +50,44 @@
     font-size: 3rem;
   }
 
+  //Index Page
+  .index-header,
+  .secondary-header {
+    height: 80vh;
+  }
+
   .about .wrapper {
     padding-top: 100px;
     padding-bottom: 80px;
+  }
+
+  // Contact Page
+  .contact-container {
+    flex-direction: column-reverse;
+    margin-left: 0;
+  }
+
+  .contact-info {
+    padding: 40px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+  .contact-form {
+    position: static;
+    margin: 0 auto;
+    margin: 40px 40px;
+  }
+
+  textarea {
+    width: 100%;
   }
 }
 
 // Landscape phone to portrait tablet
 @media (max-width: 768px){
+  // Global
   body {
     font-size: 1.4rem;
     line-height: 2.2rem;
@@ -46,8 +96,6 @@
   h1 {
     font-size: 8rem;
     line-height: 10rem;
-    margin: 0;
-    padding: 0;
   }
 
   h2 {
@@ -64,22 +112,23 @@
     line-height: 3.6rem;
   }
 
+  // Index Page
   .circle-icon {
     width: 60px;
     height: 60px;
     padding: 15px;
   }
 
-  .index-header {
+  .index-header, .secondary-header {
     height: 60vh;
-    // background-size: 100%;
+    background-position: right;
   }
 
   .header-info h1 {
     justify-content: center;
     align-items: center;
-    padding-top: 0;
-    margin-left: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .header-info img {
@@ -118,20 +167,32 @@
     width: 50%;
   }
 
-  .extra-vacation-container {
-    height: 450px;
+  // Contact Page
+  .secondary-header h1 {
+    padding-top: 40px;
+  }
+
+  .contact-container {
+    box-shadow: none;
+  }
+
+  .contact-form {
+    margin: 20px 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
 // Landscape phones and down
 @media (max-width: 480px){
+  //Global
   body {
     font-size: 1.2rem;
     line-height: 2rem;
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: 5.2rem;
     line-height: 6rem;
   }
 
@@ -150,17 +211,27 @@
     line-height: 3rem;
   }
 
-  .index-header {
+  // Index Page
+  .index-header, .secondary-header {
     height: 40vh;
   }
 
+  .menu-toggle {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   ul.header-nav {
-    margin: 10px;
+    display: none;
   }
 
   .about {
     display: block;
-    padding-top: 0;
+    // padding-top: 0;
+  }
+
+  .about .wrapper {
+    padding-top: 60px;
   }
 
   .destinations {
@@ -193,19 +264,109 @@
     max-width: 100%;
   }
 
+  .extra-vacation-container h2, .win-trip .wrapper h2 {
+    text-align: center;
+  }
+
+  .extra-vacation-container .wrapper {
+    height: 400px;
+  }
+
+  .banner {
+    height: 300px;
+  }
+
   .win-trip img {
     display: none;
   }
 
-  .win-trip .wrapper{
-    display: block;
+  .win-trip .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
     width: 100%;
-    // padding: 40px;
-    margin: 0 auto;
+  }
+
+  .win-trip {
+    margin: 20px 10px;
+  }
+
+  .gallery .full-bleed-wrapper {
+    padding: 18px 24px;
+  }
+
+  .gallery img {
+    width: 45%;
+  }
+
+  .gallery img:last-of-type {
+    display: none;
+  }
+
+  //Contact Page
+  .contact-form {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  textarea {
+    height: 100%;
+  }
+
+  .contact-info {
+    font-size: 1.8rem;
+    line-height: 2rem;
   }
 }
 
-// Even smaller 
+// Smallest -iphone 5SE
 @media(max-width: 320px){
+  // Global
+  body {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
 
+  h1 {
+    font-size: 3.4rem;
+    line-height: 4rem;
+    text-shadow: 1px 1px #000;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    // text-align: center;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .read-more {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  // Index Page
+  .about i {
+    display: none;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .about .wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  //Contact
+  textarea {
+    width: 70%;
+    height: 70%;
+  }
 }

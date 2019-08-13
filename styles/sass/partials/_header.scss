@@ -7,7 +7,6 @@
   flex-direction: column;
   justify-content: space-between;
   flex: 1 0 auto;
-  min-height: 400px;
   height: 100vh;
 }
 
@@ -43,7 +42,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  min-height: 300px;
+  // min-height: 300px;
 }
 
 .secondary-header h1 {
