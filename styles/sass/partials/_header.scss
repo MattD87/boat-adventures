@@ -5,7 +5,9 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex: 1 0 auto;
+  min-height: 400px;
   height: 100vh;
 }
 
@@ -22,7 +24,7 @@
   justify-content: center;
   flex: 1 0 auto;
   margin-left: 80px;
-  padding-top: 100px;
+  padding-top: 110px;
   width: 45%;
   color: $secondary;
   text-shadow: 2px 2px #000;

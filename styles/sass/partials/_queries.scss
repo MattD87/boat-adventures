@@ -59,8 +59,20 @@
     font-size: 2.6rem;
   }  
 
+  .read-more {
+    font-size: 2rem;
+    line-height: 3.6rem;
+  }
+
+  .circle-icon {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+  }
+
   .index-header {
     height: 60vh;
+    // background-size: 100%;
   }
 
   .header-info h1 {
@@ -91,11 +103,106 @@
   .contact p {
     margin-left: 0;
   }
+
+  .programs {
+    padding-bottom: 40px;
+  }
+
+  .programs img, .locations img {
+    position: static;
+    box-shadow: none;
+  }
+
+  .programs-content, .locations-content {
+    padding: 20px;
+    width: 50%;
+  }
+
+  .extra-vacation-container {
+    height: 450px;
+  }
 }
 
 // Landscape phones and down
 @media (max-width: 480px){
+  body {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
 
+  h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    line-height: 4rem;
+    // text-align: center;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  .read-more {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  .index-header {
+    height: 40vh;
+  }
+
+  ul.header-nav {
+    margin: 10px;
+  }
+
+  .about {
+    display: block;
+    padding-top: 0;
+  }
+
+  .destinations {
+    padding-top: 0;
+  }
+
+  .destinations,
+  .community,
+  .blog,
+  .contact {
+    flex-basis: 100%;
+    padding: 10px;
+  }
+
+  .programs {
+    flex-direction: column;
+  }
+
+  .locations {
+    flex-direction: column-reverse;
+  }
+
+  .programs-content, .locations-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .programs img, .locations img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .win-trip img {
+    display: none;
+  }
+
+  .win-trip .wrapper{
+    display: block;
+    width: 100%;
+    // padding: 40px;
+    margin: 0 auto;
+  }
 }
 
 // Even smaller 
