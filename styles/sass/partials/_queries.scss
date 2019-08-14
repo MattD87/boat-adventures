@@ -41,6 +41,10 @@
     line-height: 10rem;
   }
 
+  span {
+    font-size: 7.4rem;
+  }
+
   h2 {
     font-size: 3.2rem;
     line-height: 7rem;
@@ -231,8 +235,12 @@
   }
 
   h1 {
-    font-size: 5.2rem;
+    font-size: 5rem;
     line-height: 6rem;
+  }
+
+  span {
+    font-size: 4.4rem;
   }
 
   h2 {
@@ -415,6 +423,10 @@
     text-shadow: 1px 1px #000;
   }
 
+  span {
+    font-size: 3.4rem;
+  }
+
   h2 {
     font-size: 2.2rem;
     line-height: 3rem;
@@ -448,9 +460,4 @@
     width: 70%;
     height: 70%;
   }
-
-  // Blog Page {
-    .secondary-header h1 {
-
-    }
 }

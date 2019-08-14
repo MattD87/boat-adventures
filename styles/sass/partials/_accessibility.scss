@@ -56,7 +56,8 @@ button:hover {
   color: #000;
 }
 
-.extra-vacation-container button:focus, .trip-container button:focus {
+.extra-vacation-container button:focus,
+.trip-container button:focus {
   border: 2px solid #000;
   background: $primary;
   color: $secondary;
@@ -72,18 +73,19 @@ button:hover {
   border: 3px solid $secondary;
   background: #fff;
   color: $primary;
-
 }
 
 // Forms
-.blog-comment input[type=text]:focus, .blog-comment input[type=email]:focus, .blog-comment textarea:focus {
+.blog-comment input[type="text"]:focus,
+.blog-comment input[type="email"]:focus,
+.blog-comment textarea:focus {
   border: 2px solid $secondary;
   background: $primary;
   color: #fff;
 }
 
-.contact-form input[type=email]:focus,
-.contact-form input[type=text]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="text"]:focus,
 .contact-form textarea:focus {
   border: 2px solid $secondary;
   background: $background;

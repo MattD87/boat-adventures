@@ -277,7 +277,8 @@ button:hover {
   color: #000;
 }
 
-.extra-vacation-container button:focus, .trip-container button:focus {
+.extra-vacation-container button:focus,
+.trip-container button:focus {
   border: 2px solid #000;
   background: #0d457f;
   color: #fdd908;
@@ -295,14 +296,16 @@ button:hover {
   color: #0d457f;
 }
 
-.blog-comment input[type=text]:focus, .blog-comment input[type=email]:focus, .blog-comment textarea:focus {
+.blog-comment input[type="text"]:focus,
+.blog-comment input[type="email"]:focus,
+.blog-comment textarea:focus {
   border: 2px solid #fdd908;
   background: #0d457f;
   color: #fff;
 }
 
-.contact-form input[type=email]:focus,
-.contact-form input[type=text]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="text"]:focus,
 .contact-form textarea:focus {
   border: 2px solid #fdd908;
   background: #eafefc;
@@ -320,14 +323,18 @@ body {
   letter-spacing: 1px;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "IM Fell English", serif;
   font-weight: 400;
   font-style: italic;
   text-transform: uppercase;
 }
 
-h3, h4 {
+h3,
+h4 {
   line-height: 5.8rem;
 }
 
@@ -576,7 +583,10 @@ ul.header-nav {
   margin: 2% auto;
 }
 
-.destinations i, .community i, .blog i, .contact i {
+.destinations i,
+.community i,
+.blog i,
+.contact i {
   color: #0d457f;
 }
 
@@ -599,7 +609,8 @@ ul.header-nav {
   background: #0d457f;
 }
 
-.programs, .locations {
+.programs,
+.locations {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -620,7 +631,8 @@ ul.header-nav {
   text-align: right;
 }
 
-.programs img, .locations img {
+.programs img,
+.locations img {
   max-width: 45%;
   position: relative;
 }
@@ -639,12 +651,14 @@ ul.header-nav {
           box-shadow: -12px 12px #fdd908;
 }
 
-.programs-content, .locations-content {
+.programs-content,
+.locations-content {
   padding: 50px;
   width: calc(55% - 80px);
 }
 
-.programs-locations-container h3, .programs-locations-container p {
+.programs-locations-container h3,
+.programs-locations-container p {
   color: #fff;
 }
 
@@ -909,22 +923,8 @@ address {
   margin-top: 20px;
 }
 
-.visuallyHidden:not(:focus):not(:active) {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-input[type=text],
-input[type=email] {
+input[type="text"],
+input[type="email"] {
   height: 40px;
   width: 49%;
   padding: 0 14px;
@@ -944,37 +944,37 @@ textarea {
 }
 
 .contact-form,
-.contact-form input[type=text],
-.contact-form input[type=email],
+.contact-form input[type="text"],
+.contact-form input[type="email"],
 .contact-form textarea {
   background: #0d457f;
   color: #fdd908;
 }
 
 .contact-form ::-webkit-input-placeholder,
-.contact-form input[type=text] ::-webkit-input-placeholder,
-.contact-form input[type=email] ::-webkit-input-placeholder,
+.contact-form input[type="text"] ::-webkit-input-placeholder,
+.contact-form input[type="email"] ::-webkit-input-placeholder,
 .contact-form textarea ::-webkit-input-placeholder {
   color: #fff;
 }
 
 .contact-form :-ms-input-placeholder,
-.contact-form input[type=text] :-ms-input-placeholder,
-.contact-form input[type=email] :-ms-input-placeholder,
+.contact-form input[type="text"] :-ms-input-placeholder,
+.contact-form input[type="email"] :-ms-input-placeholder,
 .contact-form textarea :-ms-input-placeholder {
   color: #fff;
 }
 
 .contact-form ::-ms-input-placeholder,
-.contact-form input[type=text] ::-ms-input-placeholder,
-.contact-form input[type=email] ::-ms-input-placeholder,
+.contact-form input[type="text"] ::-ms-input-placeholder,
+.contact-form input[type="email"] ::-ms-input-placeholder,
 .contact-form textarea ::-ms-input-placeholder {
   color: #fff;
 }
 
 .contact-form ::placeholder,
-.contact-form input[type=text] ::placeholder,
-.contact-form input[type=email] ::placeholder,
+.contact-form input[type="text"] ::placeholder,
+.contact-form input[type="email"] ::placeholder,
 .contact-form textarea ::placeholder {
   color: #fff;
 }
@@ -993,15 +993,15 @@ textarea {
   margin: 0 auto;
 }
 
-.blog-comment input[type=text],
-.blog-comment input[type=email] {
+.blog-comment input[type="text"],
+.blog-comment input[type="email"] {
   height: 50px;
   width: 48%;
   padding: 6px 16px;
   background: #eafefc;
 }
 
-.blog-comment input[type=text] {
+.blog-comment input[type="text"] {
   margin-right: 20px;
 }
 
@@ -1065,6 +1065,9 @@ footer {
   h1 {
     font-size: 8rem;
     line-height: 10rem;
+  }
+  span {
+    font-size: 7.4rem;
   }
   h2 {
     font-size: 3.2rem;
@@ -1225,8 +1228,11 @@ footer {
     line-height: 2rem;
   }
   h1 {
-    font-size: 5.2rem;
+    font-size: 5rem;
     line-height: 6rem;
+  }
+  span {
+    font-size: 4.4rem;
   }
   h2 {
     font-size: 2.4rem;
@@ -1394,6 +1400,9 @@ footer {
     font-size: 3.4rem;
     line-height: 4rem;
     text-shadow: 1px 1px #000;
+  }
+  span {
+    font-size: 3.4rem;
   }
   h2 {
     font-size: 2.2rem;

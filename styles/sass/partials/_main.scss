@@ -18,7 +18,10 @@
   margin: 2% auto;
 }
 
-.destinations i, .community i, .blog i, .contact i {
+.destinations i,
+.community i,
+.blog i,
+.contact i {
   color: $primary;
 }
 
@@ -34,7 +37,7 @@
 .community p,
 .blog p,
 .contact p {
-  margin-left: 105px; 
+  margin-left: 105px;
 }
 
 //Programs and Locations Section
@@ -42,7 +45,8 @@
   background: $primary;
 }
 
-.programs, .locations {
+.programs,
+.locations {
   display: flex;
   flex: 1 0 auto;
   flex-direction: row;
@@ -54,7 +58,8 @@
   text-align: right;
 }
 
-.programs img, .locations img {
+.programs img,
+.locations img {
   max-width: 45%;
   position: relative;
 }
@@ -71,12 +76,14 @@
   box-shadow: -12px 12px $secondary;
 }
 
-.programs-content, .locations-content {
+.programs-content,
+.locations-content {
   padding: 50px;
   width: calc(55% - 80px);
 }
 
-.programs-locations-container h3, .programs-locations-container p {
+.programs-locations-container h3,
+.programs-locations-container p {
   color: #fff;
 }
 
@@ -88,11 +95,9 @@
   align-items: center;
   flex: 1 0 auto;
   height: 500px;
-  // padding: 0 50px;
 }
 
 .extra-vacation-container {
-  // height: 500px;
   padding: 0 40px;
 }
 
@@ -120,7 +125,6 @@
 
 .win-trip {
   margin: 40px;
-  // margin-right: 0;
 }
 
 .trip-container {
@@ -149,13 +153,7 @@
   padding: 50px 75px;
 }
 
-// .gallery {
-//   padding: 50px 75px;
-// }
-
 .gallery img {
   padding: 15px;
   width: 33%;
 }
-
-

@@ -3,20 +3,24 @@ html {
 }
 
 body {
-  font-family: $font;  
+  font-family: $font;
   font-size: 2rem;
   line-height: 2.8rem;
   letter-spacing: 1px;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: $heading-font;
   font-weight: 400;
   font-style: italic;
   text-transform: uppercase;
 }
 
-h3, h4 {
+h3,
+h4 {
   line-height: 5.8rem;
 }
 

@@ -1,19 +1,6 @@
-// Global Form Style and Visually Hidden for Labels
-.visuallyHidden:not(:focus):not(:active) {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-input[type=text],
-input[type=email] {
+// Global Form Styling
+input[type="text"],
+input[type="email"] {
   height: 40px;
   width: 49%;
   padding: 0 14px;
@@ -34,18 +21,17 @@ textarea {
 
 //Contact Form
 .contact-form,
-.contact-form input[type=text],
-.contact-form input[type=email],
+.contact-form input[type="text"],
+.contact-form input[type="email"],
 .contact-form textarea {
   background: $primary;
   color: $secondary;
-    & ::placeholder {
-      color: #fff;
-    }
+  & ::placeholder {
+    color: #fff;
+  }
 }
 
 .contact-form {
-  // height: 580px;
   padding: 60px;
   box-shadow: 10px 10px $secondary;
   position: relative;
@@ -59,15 +45,15 @@ textarea {
   margin: 0 auto;
 }
 
-.blog-comment input[type=text],
-.blog-comment input[type=email] {
+.blog-comment input[type="text"],
+.blog-comment input[type="email"] {
   height: 50px;
   width: 48%;
   padding: 6px 16px;
   background: $background;
 }
 
-.blog-comment input[type=text] {
+.blog-comment input[type="text"] {
   margin-right: 20px;
 }
 

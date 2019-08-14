@@ -1,32 +1,20 @@
-//full-bleed wrapper
+//Full-bleed wrapper
 .full-bleed-wrapper {
   width: 100%;
   max-width: 1400px;
-  // min-width: 320px;
-  // height: 100%;
   margin: 0 auto;
 }
 
-// /main content wrapper
+// Main content wrapper
 .wrapper {
   width: 90%;
   max-width: 1400px;
-  // min-width: 320px;
   margin: 0 auto;
 }
-
-// // Contact Form wrapper
-// .form-wrapper {
-//   margin: 0 auto;
-//   max-width: 1000px;
-//   // min-width: 320px;
-//   max-height: 650px;
-// }
 
 // Footer Wrapper
 .footer-wrapper {
   margin: 0 auto;
   width: 100%;
-  // min-width: 320px;
-  max-width: 1600px
+  max-width: 1600px;
 }

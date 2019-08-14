@@ -1,3 +1,4 @@
+//Global
 .post {
   display: flex;
   justify-content: space-between;
@@ -78,7 +79,6 @@
   padding: 60px;
   padding-bottom: 0;
   padding-right: 20px;
-  // border: 1px solid red;
 }
 
 .comments h3 {
@@ -88,7 +88,6 @@
 .comment-container {
   display: flex;
   padding-bottom: 60px;
-  // border: 1px solid green;
 }
 
 .display-picture {
